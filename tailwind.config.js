@@ -3,6 +3,7 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
+    "node_modules/preline/dist/*.js",
   ],
   theme: {
     extend: {},
@@ -13,5 +14,5 @@ export default {
       'beige': '#D7BAAD',
     },
   },
-  plugins: [],
+  plugins: [require("daisyui"), require("preline/plugin")],
 }

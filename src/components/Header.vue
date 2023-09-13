@@ -4,7 +4,7 @@
 
 <template>
     <header>
-        <div class="flex justify-between items-center h-24 px-24 font-bold">
+        <div class="flex justify-between items-center h-24 px-24 font-bold bg-white">
             <a href=""><img src="../assets/logo.png" alt="logo-mediblabla"></a>
             <div>
                 <button class="text-darkblue">Inscription</button>
