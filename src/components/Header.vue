@@ -11,8 +11,8 @@
                 <button class="ml-5 w-44 h-10 rounded-md bg-beige uppercase font-bold text-white">Se connecter</button>
             </div>
         </div>
-        <nav class="h-14 bg-darkblue">
-            <ul class="flex justify-center gap-12">
+        <nav class="flex justify-center items-center self-center h-14 bg-darkblue">
+            <ul class="flex gap-12">
                 <li>
                     <a href="" class="uppercase font-bold text-white">Accueil</a>
                 </li>
