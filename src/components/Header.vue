@@ -1,6 +1,6 @@
 <script setup>
     import { ref } from "vue";
-import LogIn from "../views/LogIn.vue";
+    import LogIn from "../views/LogIn.vue";
 </script>
 
 <template>
@@ -12,7 +12,7 @@ import LogIn from "../views/LogIn.vue";
                 <button class="ml-5 w-44 h-10 rounded-md bg-beige uppercase font-bold text-white">Se connecter{{ logIn }}</button>
             </div>
         </div>
-        <nav class="flex justify-center items-center self-center h-14 bg-darkblue">
+        <nav class="flex justify-center items-center self-center h-12 bg-darkblue">
             <ul class="flex gap-12">
                 <li>
                     <a href="" class="uppercase font-bold text-white">Accueil</a>

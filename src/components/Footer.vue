@@ -3,11 +3,11 @@
 </script>
 
 <template>
- <footer class="py-12 bg-darkblue text-white flex justify-center">
+ <footer class="py-12 bg-darkblue text-white flex justify-center text-center">
     <div class="flex flex-col justify-center">
-        <a href="" class="justify-center"><img src="../assets/white-logo.png" alt="logo-mediblabla"></a>
-        <p>
-            Copyright 2023. Design by <span class="font-bold">Mediblabla</span>.
+        <a href=""><img src="../assets/white-logo.png" alt="logo-mediblabla"></a>
+        <p class="mt-5">
+            Copyright - Design <span class="font-bold">Mediblabla</span>
         </p>
     </div>
 </footer>
