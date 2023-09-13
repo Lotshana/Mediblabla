@@ -14,5 +14,6 @@ export default {
       'beige': '#D7BAAD',
     },
   },
-  plugins: [require("daisyui"), require("preline/plugin")],
+  plugins: [
+    require("daisyui"), require("preline/plugin")],
 }
