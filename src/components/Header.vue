@@ -1,6 +1,6 @@
 <script setup>
     import { ref } from "vue";
-    import LogIn from "../views/LogIn.vue";
+import Connexion from "../views/Connexion.vue";
 </script>
 
 <template>
@@ -9,7 +9,7 @@
             <a href=""><img src="../assets/logo.png" alt="logo-mediblabla"></a>
             <div>
                 <button class="text-darkblue">Inscription</button>
-                <button class="ml-5 w-44 h-10 rounded-md bg-beige uppercase font-bold text-white">Se connecter{{ logIn }}</button>
+                <button class="ml-5 w-44 h-10 rounded-md bg-beige uppercase font-bold text-white">Se connecter{{ connexion }}</button>
             </div>
         </div>
         <nav class="flex justify-center items-center self-center h-12 bg-darkblue">
