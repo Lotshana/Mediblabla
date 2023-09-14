@@ -3,15 +3,16 @@
 </script>
 
 <template>
-  <h1>Mon article</h1>
     <!-- Blog Article -->
 <div class="max-w-3xl px-4 pt-6 lg:pt-10 pb-12 sm:px-6 lg:px-8 mx-auto">
   <div class="max-w-2xl">
+    <h1 class="text-xl font-medium text-gray-800 md:text-2xl md:leading-normal xl:text-2xl xl:leading-normal dark:text-gray-200 padding-20 ">Quels sont les médicaments indispensables à avoir dans son armoire ?</h1>
+    <h2 class="text-2xl font-bold md:text-3xl dark:text-white">Announcing a free plan for small teams</h2>
     <!-- Avatar Media -->
     <div class="flex justify-between items-center mb-6">
       <div class="flex w-full sm:items-center gap-x-5 sm:gap-x-3">
         <div class="flex-shrink-0">
-          <img class="h-12 w-12 rounded-full" src="https://images.unsplash.com/photo-1669837401587-f9a4cfe3126e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Image Description">
+          <img class="h-12 w-12 rounded-full" src="https://i.pinimg.com/564x/c9/5d/fd/c95dfd4cd11ce28a999840eef70a3ef2.jpg" alt="Image Description">
         </div>
 
         <div class="grow">
@@ -21,7 +22,7 @@
               <div class="hs-tooltip inline-block [--trigger:hover] [--placement:bottom]">
                 <div class="hs-tooltip-toggle sm:mb-1 block text-left cursor-pointer">
                   <span class="font-semibold text-gray-800 dark:text-gray-200">
-                    Leyla Ludic
+                    Marc Zaner
                   </span>
 
                   <!-- Dropdown Card -->
@@ -30,17 +31,17 @@
                     <div class="p-4 sm:p-5">
                       <div class="mb-2 flex w-full sm:items-center gap-x-5 sm:gap-x-3">
                         <div class="flex-shrink-0">
-                          <img class="h-8 w-8 rounded-full" src="https://images.unsplash.com/photo-1669837401587-f9a4cfe3126e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80" alt="Image Description">
+                          <img class="h-8 w-8 rounded-full" src="https://i.pinimg.com/564x/c9/5d/fd/c95dfd4cd11ce28a999840eef70a3ef2.jpg" alt="Image Description">
                         </div>
 
                         <div class="grow">
                           <p class="text-lg font-semibold text-gray-200">
-                            Leyla Ludic
+                            Marc Zaner
                           </p>
                         </div>
                       </div>
                       <p class="text-sm text-gray-400">
-                        Leyla is a Customer Success Specialist at Preline and spends her time speaking to in-house recruiters all over the world.
+                        I am Marc, pharmacist and specialist in the manufacture of medicines.
                       </p>
                     </div>
                     <!-- End Body -->
@@ -77,10 +78,7 @@
 
               <ul class="text-xs text-gray-500">
                 <li class="inline-block relative pr-6 last:pr-0 last-of-type:before:hidden before:absolute before:top-1/2 before:right-2 before:-translate-y-1/2 before:w-1 before:h-1 before:bg-gray-300 before:rounded-full dark:text-gray-400 dark:before:bg-gray-600">
-                  Jan 18
-                </li>
-                <li class="inline-block relative pr-6 last:pr-0 last-of-type:before:hidden before:absolute before:top-1/2 before:right-2 before:-translate-y-1/2 before:w-1 before:h-1 before:bg-gray-300 before:rounded-full dark:text-gray-400 dark:before:bg-gray-600">
-                  8 min read
+                  Publié le 01/09/2023
                 </li>
               </ul>
             </div>
@@ -106,63 +104,64 @@
       <div class="space-y-3">
         <h2 class="text-2xl font-bold md:text-3xl dark:text-white">Announcing a free plan for small teams</h2>
 
-        <p class="text-lg text-gray-800 dark:text-gray-200">At preline, our mission has always been focused on bringing openness and transparency to the design process. We've always believed that by providing a space where designers can share ongoing work not only empowers them to make better products, it also helps them grow.</p>
+        <p class="text-lg text-gray-800 dark:text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quia, sint illum veritatis laudantium ipsum modi dicta, numquam repellendus hic veniam reprehenderit voluptate itaque porro repellat dolores consequatur recusandae quam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam rerum saepe labore quae excepturi nesciunt cupiditate distinctio soluta vitae, laboriosam tempore minus id! Ipsa molestiae iure molestias quam. Necessitatibus, fugit!</p>
       </div>
 
-      <p class="text-lg text-gray-800 dark:text-gray-200">We're proud to be a part of creating a more open culture and to continue building a product that supports this vision.</p>
+      <p class="text-lg text-gray-800 dark:text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eaque fugiat assumenda voluptatibus adipisci at ullam inventore saepe ex quasi laudantium ipsa, dolore sint ad sit enim quos corrupti a.</p>
 
       <figure>
-        <img class="w-full object-cover rounded-xl" src="https://images.unsplash.com/photo-1670272505340-d906d8d77d03?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="Image Description">
+        <img class="w-full object-cover rounded-xl" src="../assets/medic-3.jpg" alt="Image Description">
         <figcaption class="mt-3 text-sm text-center text-gray-500">
-          A woman sitting at a table.
+          Infirmiers et chirurgiens regardant une radio.
         </figcaption>
       </figure>
 
-      <p class="text-lg text-gray-800 dark:text-gray-200">As we've grown, we've seen how Preline has helped companies such as Spotify, Microsoft, Airbnb, Facebook, and Intercom bring their designers closer together to create amazing things. We've also learned that when the culture of sharing is brought in earlier, the better teams adapt and communicate with one another.</p>
+      <p class="text-lg text-gray-800 dark:text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere et aliquam, odit laudantium, omnis natus eius alias nam quis, id ducimus ab incidunt laboriosam ratione. Repellat ipsum rem tenetur maxime! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam maiores velit iste omnis cum rerum quasi sunt deserunt perspiciatis, quo minus eaque optio odit? Dolorem adipisci accusamus illum soluta ! Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, cumque modi. Commodi, nostrum corporis. Id vero ad corrupti vitae nobis ipsa inventore veritatis eveniet, maxime culpa nihil repellendus cupiditate. Repellendus!
+      </p>
 
-      <p class="text-lg text-gray-800 dark:text-gray-200">That's why we are excited to share that we now have a <a class="text-blue-600 decoration-2 hover:underline font-medium" href="#">free version of Preline</a>, which will allow individual designers, startups and other small teams a chance to create a culture of openness early on.</p>
+      <p class="text-lg text-gray-800 dark:text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam minima non in delectus suscipit amet, cumque impedit illum, nihil sapiente cum dolore rem veniam itaque rerum assumenda sequi neque saepe! <a class="text-blue-600 decoration-2 hover:underline font-medium" href="#">Lorem Impsum</a>, dolor sit amet consectetur adipisicing elit. Minima, perferendis, consequatur nemo a repudiandae iure illum cupiditate quis quo nesciunt distinctio eveniet? Vel officia adipisci nemo harum, repellendus officiis exercitationem?</p>
 
       <blockquote class="text-center p-4 sm:px-7">
         <p class="text-xl font-medium text-gray-800 md:text-2xl md:leading-normal xl:text-2xl xl:leading-normal dark:text-gray-200">
-          To say that switching to Preline has been life-changing is an understatement. My business has tripled and I got my life back.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro aut totam facere, ipsum.
         </p>
         <p class="mt-5 text-gray-800 dark:text-gray-200">
-          Nicole Grazioso
+          John Doe
         </p>
       </blockquote>
 
       <figure>
-        <img class="w-full object-cover rounded-xl" src="https://images.unsplash.com/photo-1670272498380-eb330b61f3cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="Image Description">
+        <img class="w-full object-cover rounded-xl" src="../assets/medic-1.jpg" alt="Image Description">
         <figcaption class="mt-3 text-sm text-center text-gray-500">
-          A man and a woman looking at a cell phone.
+         Deux chirurgiens discutant.
         </figcaption>
       </figure>
 
       <div class="space-y-3">
-        <h3 class="text-2xl font-semibold dark:text-white">Bringing the culture of sharing to everyone</h3>
+        <h3 class="text-2xl font-semibold dark:text-white">Bringing the fact that medicines can help.</h3>
 
-        <p class="text-lg text-gray-800 dark:text-gray-200">We know the power of sharing is real, and we want to create an opportunity for everyone to try Preline and explore how transformative open communication can be. Now you can have a team of one or two designers and unlimited spectators (think PMs, management, marketing, etc.) share work and explore the design process earlier.</p>
+        <p class="text-lg text-gray-800 dark:text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem excepturi minima dignissimos similique tenetur quaerat! Commodi debitis dolorem pariatur sint, repudiandae doloremque, laboriosam a distinctio alias dignissimos facere eius. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, fugit natus possimus nobis a laboriosam sunt molestias rerum, minima reprehenderit veritatis atque porro illum, quam omnis quisquam necessitatibus provident nostrum?</p>
       </div>
 
       <ul class="list-disc list-outside space-y-5 pl-5 text-lg text-gray-800 dark:text-gray-200">
-        <li class="pl-2">Preline allows us to collaborate in real time and is a really great way for leadership on the team to stay up-to-date with what everybody is working on," <a class="text-blue-600 decoration-2 hover:underline font-medium" href="#">said</a> Stewart Scott-Curran, Intercom's Director of Brand Design.</li>
-        <li class="pl-2">Preline opened a new way of sharing. It's a persistent way for everyone to see and absorb each other's work," said David Scott, Creative Director at <a class="text-blue-600 decoration-2 hover:underline font-medium" href="#">Eventbrite</a>.</li>
+        <li class="pl-2"> "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam debitis distinctio eaque recusandae laborum reiciendis nostrum alias sunt dignissimos sint, excepturi ab incidunt facere corporis aspernatur neque non aperiam pariatur, " <a class="text-blue-600 decoration-2 hover:underline font-medium" href="#">said</a> Stewart Curran, a pharmaceutical researcher.</li>
+        <li class="pl-2"> "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam debitis distinctio eaque recusandae laborum reiciendis nostrum alias sunt dignissimos sint, excepturi ab incidunt facere corporis aspernatur neque non aperiam pariatur, " <a class="text-blue-600 decoration-2 hover:underline font-medium" href="#">said</a> Stewart Curran, a pharmaceutical researcher.</li>
       </ul>
 
-      <p class="text-lg text-gray-800 dark:text-gray-200">Small teams and individual designers need a space where they can watch the design process unfold, both for themselves and for the people they work with – no matter if it's a fellow designer, product manager, developer or client. Preline allows you to invite more people into the process, creating a central place for conversation around design. As those teams grow, transparency and collaboration becomes integrated in how they communicate and work together.</p>
+      <p class="text-lg text-gray-800 dark:text-gray-200">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit vel autem ducimus, omnis nemo molestiae iusto accusantium ab dignissimos sequi. Aliquam omnis molestias voluptatum quod. Cum ut libero obcaecati molestiae. – Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum sint itaque magni reprehenderit aliquid beatae, autem assumenda quasi adipisci delectus neque sequi harum nemo eaque ex, vero officiis temporibus repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ad illo laboriosam expedita sint vel voluptate maiores similique cumque, aliquam voluptates vero totam rem modi blanditiis libero quas sit obcaecati.</p>
 
       <div>
         <a class="m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 text-gray-800 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-gray-200" href="#">
-          Plan
+          Santé
         </a>
         <a class="m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 text-gray-800 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-gray-200" href="#">
-          Web development
+          Medical
         </a>
         <a class="m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 text-gray-800 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-gray-200" href="#">
-          Free
+          Astuce
         </a>
         <a class="m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 text-gray-800 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-gray-200" href="#">
-          Team
+          Conseil
         </a>
       </div>
     </div>
