@@ -13,6 +13,7 @@ export default {
       'darkblue': '#2E4450',
       'lightblue': '#89DEE2',
       'beige': '#D7BAAD',
+      'lightgrey': '#e0e3e5',
     },
   },
   plugins: [
