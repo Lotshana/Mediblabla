@@ -151,16 +151,16 @@
       <p class="text-lg text-gray-800 dark:text-gray-200">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit vel autem ducimus, omnis nemo molestiae iusto accusantium ab dignissimos sequi. Aliquam omnis molestias voluptatum quod. Cum ut libero obcaecati molestiae. – Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum sint itaque magni reprehenderit aliquid beatae, autem assumenda quasi adipisci delectus neque sequi harum nemo eaque ex, vero officiis temporibus repellendus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ad illo laboriosam expedita sint vel voluptate maiores similique cumque, aliquam voluptates vero totam rem modi blanditiis libero quas sit obcaecati.</p>
 
       <div>
-        <a class="m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 text-gray-800 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-gray-200" href="#">
+        <a class="m-1 inline-flex items-center gap-1.5 py-1.5 px-3 rounded-md text-xm font-medium bg-beige text-white" href="#">
           Santé
         </a>
-        <a class="m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 text-gray-800 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-gray-200" href="#">
+        <a class="m-1 inline-flex items-center gap-1.5 py-1.5 px-3 rounded-md text-xm font-medium bg-beige text-white" href="#">
           Medical
         </a>
-        <a class="m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 text-gray-800 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-gray-200" href="#">
+        <a class="m-1 inline-flex items-center gap-1.5 py-1.5 px-3 rounded-md text-xm font-medium bg-beige text-white" href="#">
           Astuce
         </a>
-        <a class="m-1 inline-flex items-center gap-1.5 py-2 px-3 rounded-full text-sm bg-gray-100 text-gray-800 hover:bg-gray-200 dark:bg-gray-800 dark:hover:bg-gray-700 dark:text-gray-200" href="#">
+        <a class="m-1 inline-flex items-center gap-1.5 py-1.5 px-3 rounded-md text-xm font-medium bg-beige text-white" href="#">
           Conseil
         </a>
       </div>
