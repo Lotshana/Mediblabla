@@ -9,9 +9,9 @@ const app = createApp(App);
 app.use(router);
 app.mount('#app')
 
-//createApp(App).mount('#app')
+
 
 //new Vue ({
- //   render: h => h(AuthWrapper)
+ //render: h => h(AuthWrapper)
 //}).$mount("./components/Login.vue/");
 

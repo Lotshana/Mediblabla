@@ -1,12 +1,9 @@
 <template>
-    <main class="">
-        <div class="">
-
-        </div>
-    </main>
+    <LoginForm/>
 </template>
 
 <script setup>
+import LoginForm from '../components/LoginForm.vue';
 
 </script>
 

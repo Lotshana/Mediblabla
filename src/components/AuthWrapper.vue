@@ -1,14 +1,14 @@
 <template>
     <div>
-      <App v-if="user" />
+      <Connexion v-if="user" />
       <LoginForm v-else :errorMessage="errorMessage" @submit="login" />
     </div>
   </template>
   
   <script>
- import App from "../App.vue";
   import LoginForm from "./LoginForm.vue";
   import {login} from "../authentication.js";
+  import Connexion from "../views/Connexion.vue";
   
   export default {
     data() {
@@ -25,6 +25,6 @@
       }
     },
   
-    components: { App, LoginForm }
+    components: { LoginForm, Connexion }
   };
   </script>

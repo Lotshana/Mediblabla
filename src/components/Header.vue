@@ -1,6 +1,5 @@
 <script setup>
-import Connexion from '../views/Connexion.vue';
-import Article from '../views/Article.vue';
+
 </script>
 
 <template>
@@ -8,8 +7,7 @@ import Article from '../views/Article.vue';
         <div class="flex justify-between items-center h-24 px-24 font-bold bg-white">
             <a href=""><img src="../assets/logo.png" alt="logo-mediblabla"></a>
             <div>
-                <button class="text-darkblue">Inscription</button>
-                <button class="ml-5 w-44 h-10 rounded-md bg-beige uppercase font-bold text-white">Se connecter </button>
+                <router-link to="/connexion" class="ml-5 px-5 py-4 rounded-md bg-beige uppercase font-bold text-white">Se connecter</router-link>
             </div>
         </div>
         <nav class="flex justify-center items-center self-center h-12 bg-darkblue">
@@ -18,11 +16,11 @@ import Article from '../views/Article.vue';
                     <router-link to="/" class="uppercase font-bold text-white">Home</router-link>
                 </li>
                 <li>
-                    <router-link to="/articles" class="uppercase font-bold text-white">Article</router-link>
+                    <router-link to="/articles" class="uppercase font-bold text-white">Articles</router-link>
                 </li>
-                <!--<li>
+                <li>
                     <router-link to="/about" class="uppercase font-bold text-white">À propos</router-link>
-                </li>-->
+                </li>
                 <li>
                     <router-link to="/contact" class="uppercase font-bold text-white">Contact</router-link>
                 </li>
