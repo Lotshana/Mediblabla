@@ -7,8 +7,8 @@
   
   <script>
  import App from "../App.vue";
-  import LoginForm from "./LoginForm";
-  import {login} from "../authentication";
+  import LoginForm from "./LoginForm.vue";
+  import {login} from "../authentication.js";
   
   export default {
     data() {
