@@ -16,7 +16,7 @@
                     <router-link to="/" class="uppercase font-bold text-white">Home</router-link>
                 </li>
                 <li>
-                    <router-link to="/articles" class="uppercase font-bold text-white">Articles</router-link>
+                    <router-link to="/article" class="uppercase font-bold text-white">Article</router-link>
                 </li>
                 <li>
                     <router-link to="/about" class="uppercase font-bold text-white">À propos</router-link>
