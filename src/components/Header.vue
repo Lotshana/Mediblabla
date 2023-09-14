@@ -15,16 +15,16 @@ import Connexion from "../views/Connexion.vue";
         <nav class="flex justify-center items-center self-center h-12 bg-darkblue">
             <ul class="flex gap-12">
                 <li>
-                    <a href="" class="uppercase font-bold text-white">Accueil</a>
+                    <router-link to="/" class="uppercase font-bold text-white">Accueil</router-link>
                 </li>
                 <li>
-                    <a href="" class="uppercase font-bold text-white">Articles</a>
+                    <router-link to="/articles" class="uppercase font-bold text-white">Articles</router-link>
                 </li>
                 <li>
-                    <a href="" class="uppercase font-bold text-white">À propos</a>
+                    <router-link to="/about" class="uppercase font-bold text-white">À propos</router-link>
                 </li>
                 <li>
-                    <a href="" class="uppercase font-bold text-white">Contact</a>
+                    <router-link to="/contact" class="uppercase font-bold text-white">Contact</router-link>
                 </li>
             </ul>
         </nav>
