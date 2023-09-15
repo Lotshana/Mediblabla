@@ -26,7 +26,7 @@
                   </span>
 
                   <!-- Dropdown Card -->
-                  <div class="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity inline-block absolute invisible z-10 max-w-xs cursor-default divide-y divide-gray-700 shadow-lg rounded-xl dark:bg-black bg-darkblue" role="tooltip">
+                  <div class="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity inline-block absolute invisible z-10 max-w-xs cursor-default divide-y divide-gray-700 shadow-lg rounded-xl text-white bg-darkblue" role="tooltip">
                     <!-- Body -->
                     <div class="p-4 sm:p-5">
                       <div class="mb-2 flex w-full sm:items-center gap-x-5 sm:gap-x-3">
