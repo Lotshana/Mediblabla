@@ -54,15 +54,15 @@
     <a class="group rounded-xl overflow-hidden" href="#">
       <div class="sm:flex">
         <div class="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
-          <img class="group-hover:scale-105 transition-transform duration-500 ease-in-out w-full h-full absolute top-0 left-0 object-cover rounded-xl" src="https://images.unsplash.com/photo-1540575861501-7cf05a4b125a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="Image Description">
+          <img class="group-hover:scale-105 transition-transform duration-500 ease-in-out w-full h-full absolute top-0 left-0 object-cover rounded-xl" src="../assets/medic-3.jpg" alt="Image Description">
         </div>
 
         <div class="grow mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
           <h3 class="text-xl font-semibold text-gray-800 text-darkblue hover:text-beige">
-            Studio by Preline
+            Nouveau système d’assistance cardiaque percutanée
           </h3>
           <p class="mt-3 text-darkblue">
-            Produce professional, reliable streams easily leveraging Preline's innovative broadcast studio
+            L'équipe du Pr Spaulding du service de cardiologie de l'hopital Georges Pompidou a réussi...
           </p>
           <p class="mt-4 inline-flex items-center gap-x-1.5 text-darkblue hover:text-beige decoration-2 hover:underline font-medium">
             Lire la suite
@@ -77,15 +77,15 @@
     <a class="group rounded-xl overflow-hidden" href="#">
       <div class="sm:flex">
         <div class="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
-          <img class="group-hover:scale-105 transition-transform duration-500 ease-in-out w-full h-full absolute top-0 left-0 object-cover rounded-xl" src="https://images.unsplash.com/photo-1668906093328-99601a1aa584?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=986&q=80" alt="Image Description">
+          <img class="group-hover:scale-105 transition-transform duration-500 ease-in-out w-full h-full absolute top-0 left-0 object-cover rounded-xl" src="../assets/medic-3.jpg" alt="Image Description">
         </div>
 
         <div class="grow mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
           <h3 class="text-xl font-semibold text-gray-800 text-darkblue hover:text-beige">
-            Onsite
+            Prédire le risque d’AVC par un simple test de dessin
           </h3>
           <p class="mt-3 text-darkblue">
-            Optimize your in-person experience with best-in-class capabilities like badge printing and lead retrieval
+            Au cours d'une étude menée sur 1000 hommes agés entre 65 et 75 ans, les chercheurs...
           </p>
           <p class="mt-4 inline-flex items-center gap-x-1.5 text-darkblue hover:text-beige decoration-2 hover:underline font-medium">
             Lire la suite
@@ -100,15 +100,15 @@
     <a class="group rounded-xl overflow-hidden" href="#">
       <div class="sm:flex">
         <div class="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
-          <img class="group-hover:scale-105 transition-transform duration-500 ease-in-out w-full h-full absolute top-0 left-0 object-cover rounded-xl" src="https://images.unsplash.com/photo-1567016526105-22da7c13161a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80" alt="Image Description">
+          <img class="group-hover:scale-105 transition-transform duration-500 ease-in-out w-full h-full absolute top-0 left-0 object-cover rounded-xl" src="../assets/medic-1.jpg" alt="Image Description">
         </div>
 
         <div class="grow mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
           <h3 class="text-xl font-semibold text-darkblue hover:text-beige">
-            The complete guide to OKRs
+            Le régime Dukan est-il dangereux pour la santé ?
           </h3>
           <p class="mt-3 text-darkblue">
-            How to make objectives and key results work for your company
+            Le régime Dukan est un des régimes les plus suivis en France.
           </p>
           <p class="mt-4 inline-flex items-center gap-x-1.5 text-darkblue hover:text-beige decoration-2 hover:underline font-medium">
             Lire la suite
@@ -123,15 +123,15 @@
     <a class="group rounded-xl overflow-hidden" href="#">
       <div class="sm:flex">
         <div class="flex-shrink-0 relative rounded-xl overflow-hidden w-full sm:w-56 h-44">
-          <img class="group-hover:scale-105 transition-transform duration-500 ease-in-out w-full h-full absolute top-0 left-0 object-cover rounded-xl" src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="Image Description">
+          <img class="group-hover:scale-105 transition-transform duration-500 ease-in-out w-full h-full absolute top-0 left-0 object-cover rounded-xl" src="../assets/medic-1.jpg" alt="Image Description">
         </div>
 
         <div class="grow mt-4 sm:mt-0 sm:ml-6 px-4 sm:px-0">
           <h3 class="text-xl font-semibold text-darkblue hover:text-beige">
-            People program models
+            Conseils pour conserver une bonne vue.
           </h3>
           <p class="mt-3 text-darkblue">
-            Six approaches to bringing your People strategy to life
+            La vue est un bien précieux et préserver sa vue le plus longtemps possible ne nécessite pas de grands efforts.
           </p>
           <p class="mt-4 inline-flex items-center gap-x-1.5 text-darkblue hover:text-beige decoration-2 hover:underline font-medium">
             Lire la suite
@@ -144,6 +144,10 @@
     </a>
   </div>
 </div>
+
+<a class="m-1 inline-flex items-center gap-1.5 py-1.5 px-3 rounded-md text-xm font-medium bg-beige text-white space-y-3" href="#">
+          Plus d'articles
+        </a>
 </template>
 
 <script setup>
