@@ -5,6 +5,7 @@ import('preline')
 import AuthWrapper from './components/AuthWrapper.vue'
 import router from './router' 
 
+
 const app = createApp(App);
 app.use(router);
 app.mount('#app')

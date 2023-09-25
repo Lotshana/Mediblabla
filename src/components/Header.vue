@@ -19,11 +19,15 @@
                     <router-link to="/article" class="uppercase font-bold text-white">Article</router-link>
                 </li>
                 <li>
+                    <router-link to="/CreaArt" class="uppercase font-bold text-white">CreaArt</router-link>
+                </li>
+                <li>
                     <router-link to="/about" class="uppercase font-bold text-white">À propos</router-link>
                 </li>
                 <li>
                     <router-link to="/contact" class="uppercase font-bold text-white">Contact</router-link>
                 </li>
+            
             </ul>
         </nav>
     </header>
