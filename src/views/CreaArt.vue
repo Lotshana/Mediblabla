@@ -2,7 +2,7 @@
 
 </script>
 <template>
-  
+  <h2>Formulaire de création d'article</h2>
     <form action="" method="">
 <div class="mt-5">
     <div class="relative">

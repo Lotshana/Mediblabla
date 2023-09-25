@@ -19,7 +19,7 @@ const router = createRouter({
         {path: "/connexion", name: "Connexion", component: Connexion},
         {path: "/about", name: "About", component: About},
         {path: "/article", name: "Article", component: Article},
-        {path: "/crea_art", name: "CreaArt", component: CreaArt}
+        {path: "/CreaArt", name: "CreaArt", component: CreaArt}
        
 
         
