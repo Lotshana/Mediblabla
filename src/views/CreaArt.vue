@@ -2,8 +2,8 @@
 
 </script>
 <template>
-  <h2>Formulaire de création d'article</h2>
-    <form action="" method="">
+  <h2 class="text-3xl font-bold text-darkblue sm:text-4xl text-center">Formulaire de création d'article</h2>
+    <form action="" method="" class="flex flex-col border rounded-xl p-2 sm:p-6 lg:p-8 border-darkblue mt-12 max-w-lg mx-auto">
 <div class="mt-5">
     <div class="relative">
         <label for="" class="block text-sm mb-2 text-darkblue">Titre</label>
