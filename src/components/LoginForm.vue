@@ -1,6 +1,6 @@
 <template>
     
-        <div class="p-4 sm:p-7">
+        <div class="p-4 sm:p-7 w-3/6 mx-auto">
           <div class="text-center">
             <h1 class="block text-2xl font-bold text-darkblue">Connexion</h1>
             <p class="mt-2 text-sm text-darkblue">
