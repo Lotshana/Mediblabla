@@ -2,12 +2,15 @@
     
         <div class="p-4 sm:p-7 w-3/6 mx-auto mt-12 mb-44">
           <div class="text-center">
-            <h1 class="block text-2xl font-bold text-darkblue">Connexion</h1>
-            <p class="mt-2 text-sm text-darkblue">
+            <h1 class="block text-2xl font-bold text-darkblue" v-if="mode == 'login'">Connexion</h1>
+            <h1 class="block text-2xl font-bold text-darkblue" v-else>Inscription</h1>
+            <p class="mt-2 text-sm text-darkblue" v-if="mode == 'login'">
               Vous n'avez pas de compte?
-              <a class="text-lightblue decoration-2 hover:underline font-medium" href="">
-                Inscription
-              </a>
+              <span class="text-lightblue decoration-2 hover:underline font-medium" @click="switchToCreateAccount()" >Inscription</span>
+            </p>
+            <p class="mt-2 text-sm text-darkblue" v-else>
+              Vous avez déjà un compte?
+              <span class="text-lightblue decoration-2 hover:underline font-medium" @click="switchToLogin()" >Se connecter</span>
             </p>
           </div>
 
@@ -15,6 +18,17 @@
             <form @submit.prevent="submit()">
               <div class="grid gap-y-4">
                 <p v-if="errorMessage" class="(error A VOIR AVEC TAILWIND)"></p>
+
+                <!-- Form Group -->
+                <div>
+                  <label for="email" class="block text-sm mb-2 text-darkblue">Pseudo</label>
+                  <div class="relative">
+                    <input  type="email" id="email" v-model="email" name="email" class="py-3 px-4 block w-full bg-lightgrey border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400" required aria-describedby="email-error">
+                  </div>
+                  <p class="hidden text-xs text-red-600 mt-2" id="email-error">Merci d'entrer une adresse mail valide s'il vous plait</p>
+                </div>
+                <!-- End Form Group -->
+
                 <!-- Form Group -->
                 <div>
                   <label for="email" class="block text-sm mb-2 text-darkblue">Email</label>
@@ -70,6 +84,7 @@
   
   <script>
   export default {
+    name: 'Login',
     props: {
         errorMessage: {
             type: String,
@@ -78,18 +93,25 @@
     },
     data() {
       return {
+        mode:'login',
         email: "",
         password: ""
       };
     },
   
     methods: {
-      submit() {
-        this.$emit("submit", {
-          email: this.email,
-          password: this.password
-        });
-      }
+      switchToCreateAccount: function() {
+        this.mode = 'create';
+      },
+      switchToLogin: function() {
+        this.mode = 'login';
+      },
+      // submit() {
+      //   this.$emit("submit", {
+      //     email: this.email,
+      //     password: this.password
+      //   });
+      // }
     }
   };
   </script>

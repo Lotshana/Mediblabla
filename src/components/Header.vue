@@ -129,8 +129,8 @@
       <div class="flex flex-col gap-y-4 gap-x-0 mt-5 sm:flex-row sm:items-center sm:justify-end sm:gap-y-0 sm:gap-x-7 sm:mt-0 sm:pl-7">
         <router-link to="/" class=" font-medium text-darkblue-500 hover:text-beige">Accueil</router-link>
         <router-link to="/article" class=" font-medium text-darkblue hover:text-beige">Dernier article</router-link>
-        <router-link to="/about" class=" font-medium text-darkblue hover:text-beige">Work</router-link>
-        <router-link to="/contact" class=" font-medium text-darkblue hover:text-beige">Blog</router-link>
+        <router-link to="/about" class=" font-medium text-darkblue hover:text-beige">À propos</router-link>
+        <router-link to="/contact" class=" font-medium text-darkblue hover:text-beige">Contact</router-link>
         <router-link to="/CreaArt" class=" font-medium text-darkblue hover:text-beige">Poster un article</router-link>
 
         <router-link to="/connexion" class="flex items-center gap-x-2 font-medium text-white rounded-md bg-beige sm:border-gray-300 px-5 py-4" href="#">
