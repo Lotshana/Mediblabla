@@ -9,6 +9,7 @@ const Contact = () => import("../views/Contact.vue")
 const About = () => import("../views/About.vue")
 const Article = () => import("../views/Article.vue")
 const CreaArt = () => import("../views/CreaArt.vue")
+const SignUp = () => import("../views/Connexion.vue")
 // Page 404
 const NotFound = () => import("../views/NotFound.vue")
 const router = createRouter({
@@ -19,8 +20,8 @@ const router = createRouter({
         {path: "/connexion", name: "Connexion", component: Connexion},
         {path: "/about", name: "About", component: About},
         {path: "/article", name: "Article", component: Article},
-        {path: "/CreaArt", name: "CreaArt", component: CreaArt}
-       
+        {path: "/CreaArt", name: "CreaArt", component: CreaArt},
+        {path: "/connexion", name: "SignUp", component: SignUp},
 
         
 
