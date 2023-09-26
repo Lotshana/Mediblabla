@@ -167,7 +167,7 @@
   </div>
 
   <div class="my-14 text-center">
-    <a href="#" class="px-5 py-4 rounded-md bg-beige uppercase font-bold text-white">Plus d'articles</a>
+    <a href="#" class="px-5 py-4 rounded-md bg-beige font-medium text-white">Plus d'articles</a>
   </div>
 
 

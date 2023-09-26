@@ -17,15 +17,14 @@
           <div class="mt-5">
             <form @submit.prevent="submit()">
               <div class="grid gap-y-4">
-                <p v-if="errorMessage" class="(error A VOIR AVEC TAILWIND)"></p>
+                <!-- <p v-if="errorMessage" class="(error A VOIR AVEC TAILWIND)"></p> -->
 
                 <!-- Form Group -->
                 <div v-if="mode == 'create'">
-                  <label for="email" class="block text-sm mb-2 text-darkblue">Pseudo</label>
+                  <label for="pseudo" class="block text-sm mb-2 text-darkblue">Pseudo</label>
                   <div class="relative">
-                    <input type="" id="pseudo" v-model="pseudo" name="pseudo" class="py-3 px-4 block w-full bg-lightgrey border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400" required aria-describedby="email-error">
+                    <input type="" id="pseudo" v-model="pseudo" name="pseudo" class="py-3 px-4 block w-full bg-lightgrey border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400">
                   </div>
-                  <p class="hidden text-xs text-red-600 mt-2" id="email-error">Merci d'entrer une adresse mail valide s'il vous plait</p>
                 </div>
                 <!-- End Form Group -->
 
@@ -33,14 +32,13 @@
                 <div>
                   <label for="email" class="block text-sm mb-2 text-darkblue">Email</label>
                   <div class="relative">
-                    <input  type="email" id="email" v-model="email" name="email" class="py-3 px-4 block w-full bg-lightgrey border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400" required aria-describedby="email-error">
+                    <input  type="email" id="email" v-model="email" name="email" class="py-3 px-4 block w-full bg-lightgrey border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400">
                     <div class=" absolute inset-y-0 right-0 flex items-center pointer-events-none pr-3">
                       <svg class="h-5 w-5 text-red-500" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
                         <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
                       </svg>
                     </div>
                   </div>
-                  <p class="hidden text-xs text-red-600 mt-2" id="email-error">Merci d'entrer une adresse mail valide s'il vous plait</p>
                 </div>
                 <!-- End Form Group -->
     
@@ -48,49 +46,25 @@
                  <div>
                   <div class="flex justify-between items-center">
                     <label for="password" class="block text-sm mb-2 text-darkblue">Mot de passe</label>
-                    <a class="text-sm text-blue-600 decoration-2 hover:underline font-medium" href="../examples/html/recover-account.html">Mot de passe oublié ?</a>
+                    <a class="text-sm text-blue-600 decoration-2 hover:underline font-medium" href="../examples/html/recover-account.html" v-if="mode == 'login'">Mot de passe oublié ?</a>
                   </div>
                   <div class="relative">
-                    <input type="password" v-model="password" id="password" name="password" class="py-3 px-4 block w-full  bg-lightgrey border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400" required aria-describedby="password-error">
+                    <input type="password" v-model="password" id="password" name="password" class="py-3 px-4 block w-full  bg-lightgrey border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400">
                     <div class=" absolute inset-y-0 right-0 flex items-center pointer-events-none pr-3">
                       <svg class="h-5 w-5 text-red-500" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
                         <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
                       </svg>
                     </div>
                   </div>
-                  <p class="hidden text-xs text-red-600 mt-2" id="password-error">8 caractères minimum</p>
                 </div>
                 <!-- End Form Group -->
-    
-                 <!-- Form Group -->
-                 <div v-if="mode == 'create'">
-                  <div class="flex justify-between items-center">
-                    <label for="password" class="block text-sm mb-2 text-darkblue">Confirmation du mot de passe</label>
-                  </div>
-                  <div class="relative">
-                    <input type="password" v-model="password" id="password" name="password" class="py-3 px-4 block w-full  bg-lightgrey border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400" required aria-describedby="password-error">
-                    <div class=" absolute inset-y-0 right-0 flex items-center pointer-events-none pr-3">
-                      <svg class="h-5 w-5 text-red-500" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
-                        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4zm.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
-                      </svg>
-                    </div>
-                  </div>
-                  <p class="hidden text-xs text-red-600 mt-2" id="password-error">8 caractères minimum</p>
-                </div>
-                <!-- End Form Group -->
-      
-                <!-- Checkbox -->
-                <div class="flex items-center">
-                  <div class="flex">
-                    <input id="remember-me" name="remember-me" type="checkbox" class="shrink-0 mt-0.5 border-gray-200 rounded text-blue-600 pointer-events-none focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:checked:bg-blue-500 dark:checked:border-blue-500 dark:focus:ring-offset-gray-800">
-                  </div>
-                  <div class="ml-3">
-                    <label for="remember-me" class="text-sm text-lightblue">Se souvenir de moi</label>
-                  </div>
-                </div>
-                <!-- End Checkbox -->
 
-                <button type="submit" class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-beige text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800">Connexion</button>
+                  <button type="submit" class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-beige text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800"  v-if="mode == 'login'">
+                    Connexion
+                  </button>
+                  <button @click="createAccount()" type="submit" class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-beige text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800" :class="{'button--disabled' : !validatedFields}" v-else>
+                    Créer mon compte
+                  </button>
               </div>
             </form>
 
@@ -102,20 +76,41 @@
   <script>
   export default {
     name: 'Login',
-    props: {
-        errorMessage: {
-            type: String,
-            default: ""
-        }
-    },
+
+    // props: {
+    //     errorMessage: {
+    //         type: String,
+    //         default: ""
+    //     }
+    // },
+
     data() {
       return {
         mode:'login',
-        email: "",
-        password: ""
+        pseudo: '',
+        email: '',
+        password: '',
       };
     },
-  
+
+    computed: {
+      validatedFields: function () {
+        if (this.mode == 'create') {
+          if (this.email != "" && this.pseudo != "" && this.password != "") {
+            return true;
+          } else {
+            return false;
+          }
+        } else {
+          if (this.email != "" && this.password != "") {
+            return true;
+          } else {
+            return false;
+          }
+        }
+      }
+    },
+
     methods: {
       switchToCreateAccount: function() {
         this.mode = 'create';
@@ -123,6 +118,11 @@
       switchToLogin: function() {
         this.mode = 'login';
       },
+
+      createAccount: function() {
+        console.log(this.pseudo, this.email, this.password);
+      },
+
       // submit() {
       //   this.$emit("submit", {
       //     email: this.email,
