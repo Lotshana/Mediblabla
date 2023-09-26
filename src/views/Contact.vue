@@ -22,7 +22,6 @@
               <label for="prenom" class="block text-sm  text-darkblue font-medium">Prénom :</label>
               <input type="text" name="prenom" id="prenom" placeholder="Joe" class="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 bg-lightgrey dark:border-gray-700 dark:text-gray-400">
             </div>
-
             <div>
               <label for="nom" class="block text-sm  text-darkblue font-medium">Nom :</label>
               <input type="text" name="nom" id="nom" placeholder="Doe" class="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 bg-lightgrey dark:border-gray-700 dark:text-gray-400">
