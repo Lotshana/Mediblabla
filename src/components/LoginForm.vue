@@ -1,6 +1,6 @@
 <template>
     
-        <div class="p-4 sm:p-7 w-3/6 mx-auto mt-12 mb-44">
+        <div class="p-4 sm:p-7 w-3/6 mx-auto mt-12 mb-48">
           <div class="text-center">
             <h1 class="block text-2xl font-bold text-darkblue" v-if="mode == 'login'">Connexion</h1>
             <h1 class="block text-2xl font-bold text-darkblue" v-else>Inscription</h1>
@@ -67,7 +67,7 @@
                   </button>
               </div>
             </form>
-
+            <h1 class="text-4xl font-bold md:text-3xl dark:text-white">Announcing a free plan for small teams</h1>
         </div>
     </div>
 
