@@ -8,7 +8,7 @@ const Connexion = () => import("../views/Connexion.vue")
 const Contact = () => import("../views/Contact.vue")
 const About = () => import("../views/About.vue")
 const Article = () => import("../views/Article.vue")
-const CreaArt = () => import("../views/CreaArt.vue")
+const CreaArt = () => import("../views/Creationarticle.vue")
 const Inscription = () => import("../views/Inscription.vue")
 // Page 404
 const NotFound = () => import("../views/NotFound.vue")

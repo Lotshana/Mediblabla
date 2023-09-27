@@ -12,7 +12,7 @@ export default {
     async created() {
         const response = await axios.get('http://localhost/Php_Mediblabla/article/');
         this.posts = response.data;
-        console.log (this.posts)
+        console.log (thisposts)
     },
     components: {
     }
