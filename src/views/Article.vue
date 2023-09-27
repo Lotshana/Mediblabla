@@ -11,7 +11,16 @@ export default {
     },
     async created() {
         const response = await axios.get('http://localhost/Php_Mediblabla/article/');
+        // const url = windows.location.href;
+        // const chaineTab = url.split('/');
+        // console.log(chaineTab);    
+
         this.posts = response.data;
+
+
+        // array.forEach(this.posts => {
+        //   if(this.posts === chaineTab})
+        // });
         console.log (thisposts)
     },
     components: {
@@ -23,7 +32,7 @@ export default {
     <!-- Blog Article -->
 <div class="max-w-3xl px-4 pt-6 lg:pt-10 pb-12 sm:px-6 lg:px-8 mx-auto">
   <div class="max-w-2xl">
-    <h1 class="text-xl font-medium text-gray-800 md:text-2xl md:leading-normal xl:text-2xl xl:leading-normal dark:text-gray-200 padding-20 ">Quels sont les médicaments indispensables à avoir dans son armoire ?</h1>
+    <h1 class="text-xl font-medium text-gray-800 md:text-2xl md:leading-normal xl:text-2xl xl:leading-normal dark:text-gray-200 padding-20 ">{{ post.title }}</h1>
     <h2 class="text-2xl font-bold md:text-3xl dark:text-white">Announcing a free plan for small teams</h2>
     <!-- Avatar Media -->
     <div class="flex justify-between items-center mb-6">
@@ -121,7 +130,7 @@ export default {
       <div class="space-y-3">
         <h2 class="text-2xl font-bold md:text-3xl dark:text-white">Announcing a free plan for small teams</h2>
 
-        <p class="text-lg text-gray-800 dark:text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quia, sint illum veritatis laudantium ipsum modi dicta, numquam repellendus hic veniam reprehenderit voluptate itaque porro repellat dolores consequatur recusandae quam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam rerum saepe labore quae excepturi nesciunt cupiditate distinctio soluta vitae, laboriosam tempore minus id! Ipsa molestiae iure molestias quam. Necessitatibus, fugit!</p>
+        <p class="text-lg text-gray-800 dark:text-gray-200">{{ posts.description }}</p>
       </div>
 
       <p class="text-lg text-gray-800 dark:text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas eaque fugiat assumenda voluptatibus adipisci at ullam inventore saepe ex quasi laudantium ipsa, dolore sint ad sit enim quos corrupti a.</p>

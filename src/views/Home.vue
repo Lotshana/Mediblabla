@@ -62,7 +62,7 @@ export default {
 
               <div class="mt-5">
                   <a class="inline-flex items-center gap-x-1.5 text-darkblue hover:text-beige decoration-2 hover:underline font-medium"
-                     href="#">
+                     v-bind:href="'/article/' + firstPost.title">
                       Lire la suite
                       <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
                           <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14"
@@ -95,14 +95,15 @@ export default {
                       <p class="mt-3 text-darkblue">
                           {{ post.description.slice(0, 80) + '...' }}
                       </p>
-                      <p
-                              class="mt-4 inline-flex items-center gap-x-1.5 text-darkblue hover:text-beige decoration-2 hover:underline font-medium">
-                          Lire la suite
-                          <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                              <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14"
+                      
+                        <a class="mt-4 inline-flex items-center gap-x-1.5 text-darkblue hover:text-beige decoration-2 hover:underline font-medium"
+                        v-bind:href="'/article/' + post.title">
+                            Lire la suite
+                            <svg class="w-2.5 h-2.5" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M5.27921 2L10.9257 7.64645C11.1209 7.84171 11.1209 8.15829 10.9257 8.35355L5.27921 14"
                                     stroke="currentColor" stroke-width="2" stroke-linecap="round" />
-                          </svg>
-                      </p>
+                            </svg>
+                        </a>
                   </div>
               </div>
           </a>
@@ -128,9 +129,5 @@ export default {
   </div> -->
 
 </template>
-
-
-<script setup>
-</script>
 
 <style></style>
