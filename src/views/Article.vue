@@ -1,5 +1,22 @@
-<script setup>
-
+<script>
+import axios from 'axios';
+export default {
+    methods: {
+        
+    },
+    data() {
+        return {
+            posts: [], 
+        };
+    },
+    async created() {
+        const response = await axios.get('http://localhost/Php_Mediblabla/article/');
+        this.posts = response.data;
+        console.log (this.posts)
+    },
+    components: {
+    }
+};
 </script>
 
 <template>
