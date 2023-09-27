@@ -59,7 +59,7 @@
                 </div>
                 <!-- End Form Group -->
 
-                  <button type="submit" class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-beige text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800"  v-if="mode == 'login'">
+                  <button @click="login()" type="submit" class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-beige text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800" :class="{'button--disabled' : !validatedFields}" v-if="mode == 'login'">
                     Connexion
                   </button>
                   <button @click="createAccount()" type="submit" class="py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-beige text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800" :class="{'button--disabled' : !validatedFields}" v-else>
@@ -118,9 +118,26 @@
       switchToLogin: function() {
         this.mode = 'login';
       },
-
+      login: function() {
+        this.$store.dispatch('login', {
+          email: this.email,
+          password: this.password,
+        }).then(function (response) {
+          console.log(response);
+        }), function (error) {
+          console.log(error);
+        }
+      },
       createAccount: function() {
-        console.log(this.pseudo, this.email, this.password);
+        this.$store.dispatch('createAccount', {
+          email: this.email,
+          pseudo: this.pseudo,
+          password: this.password,
+        }).then(function (response) {
+          console.log(response);
+        }), function (error) {
+          console.log(error);
+        }
       },
 
       // submit() {
