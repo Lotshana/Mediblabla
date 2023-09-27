@@ -3,7 +3,7 @@
 </script>
 
 <template>
- <footer class="py-12 bg-darkblue text-white flex justify-center text-center min-with: calc(100vh-header-footer)">
+ <footer class="py-12 bg-darkblue text-white flex justify-center text-center min-width: calc(100vh-header-footer)">
     <div class="flex flex-col justify-center">
         <a href=""><img src="../assets/white-logo.png" alt="logo-mediblabla" class="logo-mediblabla"></a>
         <p class="mt-5">
