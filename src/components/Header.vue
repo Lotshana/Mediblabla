@@ -6,7 +6,7 @@
 <header class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-white border-gray-200 text-sm py-3 sm:py-0 mt-6">
   <nav class="relative max-w-7xl w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8" aria-label="Global">
     <div class="flex items-center justify-between">
-      <a class="flex-none text-xl font-semibold dark:text-white" href="#" aria-label="Brand"><img src="../assets/logo.png" alt="logo-mediblabla" class="logo-mediblabla"></a>
+      <a class="flex-none text-xl font-semibold dark:text-white" href="/" aria-label="Brand"><img src="../assets/logo.png" alt="logo-mediblabla" class="logo-mediblabla"></a>
       <div class="sm:hidden">
         <button type="button" class="hs-collapse-toggle p-2 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-darkblue-700 shadow-sm align-middle hover:bg-gray-50" data-hs-collapse="#navbar-collapse-with-animation" aria-controls="navbar-collapse-with-animation" aria-label="Toggle navigation">
           <svg class="hs-collapse-open:hidden w-4 h-4" width="16" height="16" viewBox="0 0 16 16">

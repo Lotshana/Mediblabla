@@ -1,6 +1,6 @@
 <template>
     
-        <div class="p-4 sm:p-7 w-3/6 mx-auto mt-12 mb-48">
+        <div class="p-4 sm:p-7 mx-auto mt-12 mb-48 connexion">
           <div class="text-center">
             <h1 class="block text-2xl font-bold text-darkblue" v-if="mode == 'login'">Connexion</h1>
             <h1 class="block text-2xl font-bold text-darkblue" v-else>Inscription</h1>
@@ -14,7 +14,7 @@
             </p>
           </div>
 
-          <div class="mt-5">
+          <div class="mt-5 border rounded-xl p-2 mt-12 sm:p-6 lg:p-8 border-darkblue max-w-lg mx-auto">
             <form @submit.prevent="submit()">
               <div class="grid gap-y-4">
                 <!-- <p v-if="errorMessage" class="(error A VOIR AVEC TAILWIND)"></p> -->
@@ -67,7 +67,7 @@
                   </button>
               </div>
             </form>
-            <h1 class="text-4xl font-bold md:text-3xl dark:text-white">Announcing a free plan for small teams</h1>
+            <!-- <h1 class="text-4xl font-bold md:text-3xl dark:text-white">Announcing a free plan for small teams</h1> -->
         </div>
     </div>
 
@@ -150,3 +150,11 @@
   };
   </script>
 
+<style>
+    @media screen and (max-width: 768px){
+            .connexion {
+              width: 100%;
+              margin-bottom: 50px;
+            }
+        }
+</style>

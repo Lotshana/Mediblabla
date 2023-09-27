@@ -3,7 +3,7 @@ import { createStore } from 'vuex';
 const axios = require('axios');
 
 const instance = axios.create({
-    baseURL: 'https://api.example.com' // PAS D'API ?
+    baseURL: '../Php_Mediblabla/API_PHP-main'
 });
 
 // Create a new store instance
