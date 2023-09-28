@@ -1,21 +1,34 @@
 <script setup>
     import axios from 'axios';
 
-    let formData = new FormData();
+    let model = {};
 
     const submitForm = async () => {
         const instance = axios.create({
             baseURL: "http://localhost/Php_mediblabla/article/",
             headers: {
                 'Content-Type': 'multipart/form-data',
-            },
-            //withCredentials: true,
+            }
         });
+
+        if(!model.title){
+            return;
+        }
+
+        const formData = new FormData();
+        formData.append('title', model.title);
+        if(model.author){
+            formData.append('author', model.author);
+        }
+        if(model.description){
+            formData.append('description', model.description);
+        }
+        
 
         try {
             const response = await instance.post("create.php", formData);
             alert("L'article a bien été inséré")
-            formData = new FormData();
+            model = {};
         } catch (error) {
             console.error(error);
         }
@@ -30,13 +43,13 @@
             <div class="mt-5 grid grid-cols-1 gap-4 lg:gap-6">
                 <div class="relative">
                     <label for="title" class="block text-sm text-darkblue font-medium">Titre</label>
-                    <input type="text" id="title" v-model="formData.title"
+                    <input type="text" id="title" v-model="model.title"
                            class="py-3 px-4 block w-full bg-lightgrey border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400">
                 </div>
 
                 <div class="relative ">
                     <label for="author" class="block text-sm text-darkblue font-medium">Auteur</label>
-                    <select id="author" v-model="formData.auhtor"
+                    <select id="author" v-model="model.author"
                             class="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 bg-lightgrey dark:border-gray-700 dark:text-gray-400">
                         <option value="" class="text-gray-400">Choisissez un auteur</option>
                         <option value="Joe Doe">Joe Doe</option>
@@ -61,7 +74,7 @@
 
                 <div class="relative">
                     <label for="content" class="block text-sm text-darkblue font-medium">Contenu</label>
-                    <textarea id="content" cols="30" rows="10" v-model="formData.description"
+                    <textarea id="content" cols="30" rows="10" v-model="model.description"
                               class="py-3 px-4 block w-full  bg-lightgrey border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400">Entrer votre texte ici</textarea>
                 </div>
 
@@ -85,3 +98,4 @@
         }
     }
 </style>
+

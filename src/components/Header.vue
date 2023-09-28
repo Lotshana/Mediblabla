@@ -24,7 +24,7 @@
         <!-- <router-link to="/article" class=" font-medium text-darkblue hover:text-beige">Dernier article</router-link> -->
         <router-link to="/about" class=" font-medium text-darkblue hover:text-beige">À propos</router-link>
         <router-link to="/contact" class=" font-medium text-darkblue hover:text-beige">Contact</router-link>
-        <router-link to="/CreaArt" class=" font-medium text-beige">Poster un article</router-link>
+        <router-link to="/Creationarticle" class=" font-medium text-beige">Poster un article</router-link>
 
         <router-link to="/connexion" class="flex items-center gap-x-2 font-medium text-white rounded-md bg-beige hover:bg-darkblue sm:border-gray-300 px-5 py-4">
           <svg class="w-4 h-4 text-white" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" viewBox="0 0 16 16">
